@@ -1,4 +1,5 @@
 <?php
+	echo "<br> Bai tap 1 <br>";
 	$a = 5;
 	if($a%2==0) {
 		echo $a . " la so chan";
@@ -10,7 +11,7 @@
 			echo $a . " khong chia het cho 3";
 		}
 	}
-	echo "<br> -------------------------------- <br>";
+	echo "<br> Bai tap 2 <br>";
 	$b = 9;
 	switch($b) {
 		case '1':
@@ -53,4 +54,7 @@
 			echo "khong phai thang trong nam";
 			break;
 	}
+	
+	echo "<br> Bai tap 3 <br>";
+	
 ?>
