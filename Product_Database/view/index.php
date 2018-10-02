@@ -6,7 +6,7 @@
 
   <?php
     
-    if($_SERVER['REQUEST_URI'] == "/demoPHP/BTVN/Product_Database/view/" || $_SERVER['REQUEST_URI'] == "/demoPHP/BTVN/Product_Database/view/index.php") {
+    if($_SERVER['REQUEST_URI'] == "/batch138-139-KhangTV/Product_Database/view/" || $_SERVER['REQUEST_URI'] == "/batch138-139-KhangTV/Product_Database/view/index.php") {
       include("product_list.php");
     }
     // var_dump($_SERVER);
